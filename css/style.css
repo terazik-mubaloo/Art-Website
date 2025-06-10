@@ -1,0 +1,304 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+ *   HTML content. To learn how to do something, just try searching Google for questions like
+ *   "how to change link color." */
+
+body {
+    background: #D0E4F5 url("https://file.garden/aCm1Y7VUCxPnxoFW/sky.png") repeat fixed 50% 0%;
+    background-size: cover;
+
+    color: white;
+    font-family: Georgia;
+    font-size: 13px;
+}
+a {
+    font-size: 17px;
+    color: #b3a1fc;
+    text-decoration:none;
+}
+#demo {
+color: red;
+height: 100px;
+}
+#table_id {
+display: block;
+}
+
+#table_id td {
+display: inline-block;
+}
+
+#table_sorters {
+display: block;
+}
+
+#table_sorters td {
+display: inline-block;
+max-width: 77%;
+}
+
+#table_id2 {
+display: block;
+}
+
+#table_id2 td {
+display: inline-block;
+max-width: 77%;
+}
+.dotted_green {
+    background-color: rgb(45,39,34);
+    background-color: rgba(172,190,133,0.5);
+    padding: 10px;
+    content: "";
+    clear: both;
+    display: table;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%)
+}
+.art_stash_container {
+    background-color: rgb(45,39,34);
+    background-color: rgba(172,190,133,0.5);
+    padding: 10px;
+    content: "";
+    clear: both;
+    display: table;
+    border-radius: 5px;
+    max-width: 60%;
+    vertical-align:top;
+    border-spacing:20px;
+    border-collapse:separate;
+    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%)
+}
+.dotted_brown_solid {
+    background-color: rgb(45,39,34);
+    background-color: rgba(45,39,34,0.9);
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    content: "";
+    clear: both;
+    display: table;
+    border-top: 5px groove #D9DCBE;
+    border-left: 5px groove #D9DCBE;
+    border-right: 5px ridge #D9DCBE;
+    border-bottom: 5px ridge #D9DCBE;
+    border-radius: 5px;
+}
+.light_brown_solid {
+    background-color: #4F453F;
+    background-color: rgba(79,69,63,0.9);
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    content: "";
+    clear: both;
+    display: table;
+    border-top: 5px groove #D9DCBE;
+    border-left: 5px groove #D9DCBE;
+    border-right: 5px ridge #D9DCBE;
+    border-bottom: 5px ridge #D9DCBE;
+    border-radius: 5px;
+
+}
+.top_links {
+    float: left;
+    color: white;
+    background-color: rgb(45,39,34);
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    content: "";
+    clear: both;
+    display: table;
+    border-top: 5px groove #BA6BD8;
+    border-left: 5px groove #BA6BD8;
+    border-right: 5px ridge #BA6BD8;
+    border-bottom: 5px ridge #BA6BD8;
+    border-radius: 5px;
+    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%)
+}
+.top_links:hover {
+    background-color: #7B458F;
+}
+#links_title {
+color:#96928D;
+}
+.link {
+    float: left;
+    color: white;
+    min-width: 190px;
+    padding: 3px;
+    content: "";
+    clear: both;
+    display: table;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.link:hover {
+    color: white;
+    background-color: #6A5F59;
+    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px rgb(255 255 255 / 16%), inset 0px -13px 6px -10px rgb(66 66 66 / 38%)
+}
+#links_table {
+max-width: 190px;
+}
+.pixelated {
+    image-rendering: pixelated;
+}
+.art_thumb {
+    background-color: rgb(45,39,34);
+    color: white;
+    padding: 7px;
+    max-height: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 6px double #fff;
+    border-radius: 15px;
+    content: "";
+    clear: both;
+    display: table;
+    margin: 20px;
+}
+td {
+    max-width:49%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.art_date {
+    float: right;
+    color: grey;
+    font-size: 12px;
+}
+
+.watch_date {
+    float: left;
+    color: grey;
+    font-size: 13px;
+}
+
+.sort_button {
+    background-color: rgb(45,39,34);
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    min-width: 100px;
+    font-size: 15px;
+}
+.sort_button:focus {
+    background-color: #FFBCFE;
+    color: black;
+}
+
+.sorters {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    padding: 10px;
+}
+
+.rotateImg {
+    transition: transform 0.5s ease;
+}
+
+.rotateImg:hover {
+    transform: rotate(180deg);
+}
+.rotateImg:hover .rotateElement {
+    transform: rotate(180deg);
+}
+
+#copyright {
+font-size: 14;
+text-shadow: 2px 2px black;
+}
+
+#neocities_button {
+width:20%;
+}
+
+.fav_img {
+    width: 20px;
+    height: 20px;
+}
+
+#front_page_main {
+min-width: 100%;
+width: 800px;
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media only screen and (orientation: portrait) {
+
+    body {
+        font-size: 30px;
+    }
+    a {
+        font-size: 37px;
+    }
+    #links_title {
+    font-size: 70px;
+    }
+    #link_title_div {
+    text-align: center;
+    }
+    .link {
+        font-size: 0px;
+        padding: 20px;
+        min-width: 3px;
+    }
+    #links_table {
+    max-width: 1000px;
+    }
+    .custom_break {
+        height:5px;
+        border-width:0;
+        color:gray;
+        background-color:gray;
+    }
+    td {
+        max-width: 100%;
+    }
+    .art_stash_container {
+        max-width: 80%;
+    }
+    .art_date {
+        font-size: 20px;
+    }
+    .watch_date {
+        font-size: 22px;
+    }
+    b {
+        font-size: 25px;
+    }
+    #neocities_button {
+    width:70%;
+    }
+    #copyright {
+    font-size: 25px;
+    }
+    .fav_img {
+        width: 80px;
+        height: 80px;
+    }
+    #table_id2 td {
+    max-width: 80%;
+    }
+    #table_sorters td {
+    max-width: 20%;
+    }
+    .sort_button {
+        font-size: 30px;
+        margin-right: 40px;
+        padding: 60px;
+    }
+    .sorters {
+        max-width: 90%;
+    }
+
+}
+
+

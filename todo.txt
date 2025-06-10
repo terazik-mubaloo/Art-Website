@@ -1,0 +1,3 @@
+- Fix art sort hiding method, to work with if statements, allowing for the use of "hide all except for"; Making the animation look a bit nicer. (and once done, maybe slow down the animation to 400 again)
+- Fix sort buttons centered-ness
+- mobile fix for socials tab on front page.

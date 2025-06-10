@@ -1,0 +1,14 @@
+<td>
+        <a href=""><div class="art_thumb art_2025">
+            <b> ART TITLE </b>
+            <p class="art_date">DD/MMM/Year</p>
+            <p class="watch_date"><b>Fin.Watching:</b> DD/MMM/Year</p>
+            <img src="DRAWING THUMBNAIL" width="100%">
+            <br>
+            <a title="Tumblr" href="TUMBLR LINK" target="_blank"> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/favicon/tumblr.png" width="12%"> </a>
+            <a title="Instagram" href="INSTAGRAM LINK" target="_blank"> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/favicon/instagram.png" width="12%"> </a>
+            <a title="Tiktok" href="TIKTOK LINK" target="_blank"> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/favicon/tiktok.png" width="12%"> </a>
+            <a title="Bluesky" href="BLUESKY LINK" target="_blank"> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/favicon/bluesky.png" width="12%"> </a>
+            <a title="Newgrounds" href="NEWGROUNDS LINK" target="_blank"> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/favicon/newgrounds.jpg" width="12%"> </a>
+        </div></a>
+      </td>

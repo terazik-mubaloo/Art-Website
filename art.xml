@@ -1,0 +1,53 @@
+	<?xml version="1.0" encoding="utf-8"?>
+    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+        <channel>
+            <title>terazik-mubaloo's Art Stash</title>
+            <link>https://terazik-mubaloo.neocities.org/art</link>
+            <description>This is a feed to share my new art, aswell as links to where it's been posted! (Still testing)</description>
+            <image>
+                <url>https://file.garden/aCm1Y7VUCxPnxoFW/whiteboard_portraitBlue.png</url>
+                <title>terazik-mubaloo's Art</title>
+                <link>https://terazik-mubaloo.neocities.org/art</link>
+            </image>
+            <atom:link href="https://tanzi-media.com/RSS_Feeds/All.xml" rel="self" type="application/rss+xml" />
+
+            <item>
+                <title>"I'm kinda hungry."</title>
+                <link>https://terazik-mubaloo.neocities.org/art.kinda-hungry</link>
+                <guid>https://terazik-mubaloo.neocities.org/art.kinda-hungry</guid>
+                <pubDate>Tue May 13 2025 16:11:40 GMT+0000
+                    (Note: The date must be in this format)</pubDate>
+                <description>Description</description>
+                <category> Art Stash </category>
+                <content:encoded><![CDATA[
+                    <b> "I'm kinda hungry." </b>
+                    <p class="art_date">13/May/2025</p>
+                    <img src="https://file.garden/aCm1Y7VUCxPnxoFW/13-5-2025-thumb.jpg" width="100%">
+                    <br>
+                    <a title="Newgrounds" href="https://www.newgrounds.com/art/view/terazik-mubaloo/dude-s-kinda-hungry"> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/newgrounds.ico" width="12%"> </a>
+                    <a title="Instagram" href="https://www.instagram.com/p/DJl82pRIiYP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/instagram.png" width="12%"> </a>
+
+                    ]]></content:encoded>
+            </item>
+            <item>
+                <title>Nandor from WWDITS fanart</title>
+                <link>https://terazik-mubaloo.neocities.org/art.nandor.html</link>
+                <guid>https://terazik-mubaloo.neocities.org/art.nandor.html</guid>
+                <pubDate>Thu Apr 10 2025 16:11:40 GMT+0000
+                    (Note: The date must be in this format)</pubDate>
+                <description>Description</description>
+                <category> Art Stash </category>
+                <content:encoded><![CDATA[
+                    <b> Nandor from WWDITS fanart </b>
+                    <p class="art_date">10/April/2025</p>
+                    <img src="https://file.garden/aCm1Y7VUCxPnxoFW/Nandor-thumb.jpg" width="100%">
+                    <br>
+                    <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/780460432010969088/i-am-very-late-on-this-challenge-im-making-for?source=share"> <img src="http://tumblr.com/favicon.ico" width="12%"> </a>
+                    <a title="Instagram" href="https://www.instagram.com/p/DIRgyIoo2DI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/instagram.png" width="12%"> </a>
+                    <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7491735460385983766?is_from_webapp=1&sender_device=pc"> <img src="https://www.tiktok.com/favicon.ico" width="12%"> </a>
+
+                    ]]></content:encoded>
+            </item>
+
+        </channel>
+    </rss>
