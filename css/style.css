@@ -63,7 +63,7 @@ max-width: 77%;
     clear: both;
     display: table;
     border-radius: 5px;
-    max-width: 60%;
+    max-width: 70%;
     vertical-align:top;
     border-spacing:20px;
     border-collapse:separate;
@@ -150,14 +150,14 @@ max-width: 190px;
     color: white;
     padding: 7px;
     max-height: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     border: 6px double #fff;
     border-radius: 15px;
     content: "";
     clear: both;
     display: table;
-    margin: 20px;
+    margin: 15px;
 }
 td {
     max-width:49%;
