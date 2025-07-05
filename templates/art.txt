@@ -10,5 +10,6 @@
             <a title="Tiktok" href="TIKTOK LINK" target="_blank"> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/favicon/tiktok.png" class="art_thumb_fav"> </a>
             <a title="Bluesky" href="BLUESKY LINK" target="_blank"> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/favicon/bluesky.png" class="art_thumb_fav"> </a>
             <a title="Newgrounds" href="NEWGROUNDS LINK" target="_blank"> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/favicon/newgrounds.jpg" class="art_thumb_fav"> </a>
+            <a title="Artfight" href="ARTFIGHT LINK" target="_blank"> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/favicon/artfight.ico" class="art_thumb_fav"> </a>
         </div>
       </td>
