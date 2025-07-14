@@ -3,7 +3,7 @@
  *   "how to change link color." */
 
 body {
-    background: #D0E4F5 url("https://file.garden/aCm1Y7VUCxPnxoFW/sky.png") repeat fixed 50% 0%;
+    background: url("../images/sky.png") fixed 50% 0%;
     background-size: cover;
 
     color: white;
