@@ -8,6 +8,8 @@ body {
     font-size: 12px;
 }
 
+
+
 a {
     font-size: 13px;
     color: #b3a1fc;
@@ -122,10 +124,16 @@ td {
     border-right: 5px ridge #BA6BD8;
     border-bottom: 5px ridge #BA6BD8;
     border-radius: 5px;
-    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%)
+    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
+    font-size: 18;
 }
 .top_links:hover {
     background-color: #7B458F;
+}
+
+#art_stash_button {
+    text-align: center;
+    width:100px;
 }
 
 #links_title {
@@ -245,6 +253,10 @@ td {
     width: 850px;
 }
 
+#front_page_main_intro {
+    padding-top: 20px;
+}
+
 .row > .column {
     padding: 0 8px;
 }
@@ -329,11 +341,23 @@ td {
 @media only screen and (orientation: portrait) {
 
     body {
-        font-size: 30px;
+        font-size: 50px;
     }
 
     a {
         font-size: 37px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 70px;
+    }
+
+    ul {
+        font-size: 30px;
     }
 
     #links_title {
@@ -348,6 +372,15 @@ td {
         font-size: 0px;
         padding: 20px;
         min-width: 1%;
+    }
+
+    .top_links {
+        font-size: 40px;
+    }
+
+    #art_stash_button {
+        min-width:300px;
+        width:300px;
     }
 
     #links_table {
@@ -419,6 +452,9 @@ td {
         height: 300px;
     }
 
+    #front_page_main_intro {
+        padding-top: 80px;
+    }
 }
 
 
