@@ -333,10 +333,11 @@ width: 850px;
     .link {
         font-size: 0px;
         padding: 20px;
-        min-width: 60%;
+        min-width: 1%;
     }
     #links_table {
-    max-width: 1000px;
+        max-width: 1000px;
+        display: block ruby;
     }
     .custom_break {
         height:5px;
@@ -389,7 +390,7 @@ width: 850px;
     }
 
     .music_box {
-        border: 0; width: 500px; height: 500px;
+        border: 0; width: 300px; height: 300px;
     }
 
 }
