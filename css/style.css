@@ -333,7 +333,7 @@ width: 850px;
     .link {
         font-size: 0px;
         padding: 20px;
-        min-width: 3px;
+        min-width: 60%;
     }
     #links_table {
     max-width: 1000px;
@@ -389,7 +389,7 @@ width: 850px;
     }
 
     .music_box {
-        border: 0; width: 300px; height: 300px;
+        border: 0; width: 500px; height: 500px;
     }
 
 }
