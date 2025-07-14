@@ -312,7 +312,7 @@ width: 850px;
 }
 
 .music_box {
-    border: 0; width: 130px; height: 130px;
+    border: 0; width: 150px; height: 150px;
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
