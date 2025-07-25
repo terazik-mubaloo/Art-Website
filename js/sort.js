@@ -1,0 +1,25 @@
+$(document).ready(function(){
+    $("#sort_all").click(function(){
+        $(".art_thumb").parent().show(200);
+    });
+    $("#sort_2025compl_art").click(function(){
+        $(".art_thumb").parent().hide();
+        $(".art_2025compl_art").parent().show(200);
+    });
+    $("#sort_2024").click(function(){
+        $(".art_thumb").parent().hide();
+        $(".art_2024").parent().show(200);
+    });
+    $("#sort_2025").click(function(){
+        $(".art_thumb").parent().hide();
+        $(".art_2025").parent().show(200);
+    });
+    $("#sort_sketches").click(function(){
+        $(".art_thumb").parent().hide();
+        $(".sketch").parent().show(200);
+    });
+    $("#sort_fin_art").click(function(){
+        $(".art_thumb").parent().show(200);
+        $(".sketch").parent().hide();
+    });
+});

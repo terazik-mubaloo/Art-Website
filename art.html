@@ -1,0 +1,395 @@
+<html>
+
+  <head>
+    <title>terazik-mubaloo / Art Stash</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/sort.js"></script>
+  </head>
+  <body>
+  <div class="horizontal centered align-start">
+    <div class="vertical" style="position: sticky; top: 8px;">
+        <div class="top_links">
+          <a href="./index.html">Home</a>
+        </div>
+    </div>
+  </div>
+
+  <div class="dotted_brown_solid" style="margin-left: auto; margin-right: auto; text-align: center;">
+    <h1><u>Art Stash!</u></h1>
+    <p>(hover over art for more info!)</p>
+  </div>
+
+  <p></p>
+
+  <!-- Sort selectors -->
+  <table class="sorters" id="table_id">
+    <tr>
+      <td>
+        <button id="sort_all" autofocus class="sort_button">
+          <p>All</p>
+        </button>
+      </td>
+      <td>
+        <button id="sort_2024" class="sort_button" title="All art from 2024">
+          <p>2024</p>
+        </button>
+      </td>
+      <td>
+        <button id="sort_2025" class="sort_button" title="All art from 2025">
+          <p>2025</p>
+        </button>
+      </td>
+      <td>
+        <button id="sort_2025compl_art" class="sort_button" title="A challenge where I draw fanart for every piece of media I consume in 2025.">
+          <p>#2025-Fanart</p>
+        </button>
+      </td>
+      <td>
+        <button id="sort_sketches" class="sort_button" title="All sketches, both digital and traditional.">
+          <p>Sketches</p>
+        </button>
+      </td>
+      <td>
+        <button id="sort_fin_art" class="sort_button" title="Anything completed, basically all except for sketches.">
+          <p>Rendered Art</p>
+        </button>
+      </td>
+    </tr>
+  </table>
+
+  <!-- My art showcase -->
+  <table style="margin-left: auto; margin-right: auto;" class="art_stash_container" id="table_id">
+    <tr style="margin-left: auto; margin-right: auto;">
+      <td>
+        <div class="art_thumb art_2025 sketch art_2025compl_art" title="I've left this sketch like this for more than a month, and so I am posting it as is. It isn't finished obviously, but I still like the work I did on it!">
+            <b> 2025-Fanart #5: "Andor" </b>
+            <p class="art_date">21/Jul/2025</p>
+            <p class="watch_date"><b>Fin.Watching:</b> 7/May/2025</p>
+            <img src="images/art/Andor2-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/789689218653913088/2025-fanart-5-andor-finished-752025-ive?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DMX5uE9IaQW" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://vm.tiktok.com/ZNdmpF9aQ/" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lui66hg27k2k" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+            <a title="Newgrounds" href="https://www.newgrounds.com/art/view/terazik-mubaloo/2025-fanart-5-andor-finished-7-5-2025" target="_blank"> <img src="images/favicons/newgrounds.jpg" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2025 artfight_2025 artfight sketch" title="OC from user: ~Buendenko | I really like this character! I wanted to do a more complicated piece, but since I haven't drawn in a while, I did a sketch. I might still do another drawing of him, but this is it for now.">
+            <b> Artfight 2025: Jovan (sketch) </b>
+            <p class="art_date">12/Jul/2025</p>
+            <img src="images/art/skettch-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/788886544744382464/fanart-of-buendenkos-oc-jovan-bo%C5%A1kovi%C4%87?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DMBES8-oVKP/?utm_source=ig_web_copy_link" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7526255135299833110" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3ltrutmsss22q" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+            <a title="Newgrounds" href="https://www.newgrounds.com/art/view/terazik-mubaloo/artfight-2025-jovan-sketch" target="_blank"> <img src="images/favicons/newgrounds.jpg" class="art_thumb_fav"> </a>
+            <a title="Artfight" href="https://artfight.net/attack/10965332.jovan-sketch" target="_blank"> <img src="images/favicons/artfight.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2025 artfight_2025 artfight" title="OC from user: ~Teamof6 | My first attack of the year! (and hopefully not the last.)">
+            <b> Artfight 2025: Juvi </b>
+            <p class="art_date">5/Jul/2025</p>
+            <img src="images/art/5430178-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/788227327625674752/the-character-is-juvi-by-teamof6-on-artfight?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DLuUwe2IDSm/?igsh=MXNzaG1jZzAzMGQ0Yw==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://vm.tiktok.com/ZNdPyNTsG/" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lt7lipad2k27" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+            <a title="Newgrounds" href="https://www.newgrounds.com/art/view/terazik-mubaloo/artfight-2025-juvi" target="_blank"> <img src="images/favicons/newgrounds.jpg" class="art_thumb_fav"> </a>
+            <a title="Artfight" href="https://artfight.net/attack/9809321.juvi" target="_blank"> <img src="images/favicons/artfight.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2025 sketch" title="This was originally going to be my submission for Andor in my '2025-Fanart' challenge, but to stop myself from doing the same 3/4 view perspective of a face that I draw basically all the time, I'm leaving this somewhat unfinished to work on a 2 character piece as my submission. I Still quite like it though!">
+            <b> Dedra from Andor sketch </b>
+            <p class="art_date">19/Jun/2025</p>
+            <img src="images/art/Andor1-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/786773663878922240/dedra-from-andor-sketch-this-was-originally-going?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DLFCUbPoTzX/?utm_source=ig_web_copy_link" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7517598695018499351" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lrxap6gkss2h" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+            <a title="Newgrounds" href="https://www.newgrounds.com/art/view/terazik-mubaloo/dedra-from-andor-sketch?updated=1750326852" target="_blank"> <img src="images/favicons/newgrounds.jpg" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2025 sketch art_2025compl_art" title="Minecraft movie sketches!">
+          <b> 2025-Fanart #4: "A Minecraft Movie" </b>
+          <p class="art_date">14/Jun/2025</p>
+          <p class="watch_date"><b>Fin.Watching:</b> 8/Apr/2025</p>
+          <div style="margin-top:10.8%;">
+            <img src="images/art/minecraft_sketches.2-thumb.jpg" width="50%" style="float: left;">
+            <img src="images/art/minecraft_sketches.3-thumb.jpg" width="50%" style="float: right;">
+            <img src="images/art/minecraft_sketches.1-thumb.jpg" width="100%">
+          </div>
+          <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/786333687023321088/some-sketches-from-the-minecraft-movie?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+          <a title="Instagram" href="https://www.instagram.com/p/DK4d9FgIdMK/?utm_source=ig_web_copy_link" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+          <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7515906354276601110" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+          <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lrltef7nm227" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+          <a title="Newgrounds" href="https://www.newgrounds.com/art/view/terazik-mubaloo/2025-fanart-4-a-minecraft-movie-finished-8-4-2025" target="_blank"> <img src="images/favicons/newgrounds.jpg" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2025 art_2025compl_art" title="I really like how this turned out! I prefer the way the smaller parts look from the bigger more realistic part, but I'm still quite proud of it! + The practice with more painterly shading is most definitely improving my art!">
+            <b> 2025-Fanart #3: "Companion" </b>
+            <p class="art_date">7/Jun/2025</p>
+            <p class="watch_date"><b>Fin.Watching:</b> 4/Feb/2025</p>
+            <img src="images/art/Companion%20gun-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/785687547582005248/d-2025-fanart-3-companion-finished-show?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DKmNBOXII52/?utm_source=ig_web_copy_link" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7513155087024344342" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lqz4taj5c22g" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+            <a title="Newgrounds" href="https://www.newgrounds.com/art/view/terazik-mubaloo/2025-fanart-3-companion-finished-show-4-2-2025" target="_blank"> <img src="images/favicons/newgrounds.jpg" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2025 sketch">
+          <b> "I'm kinda hungry." </b>
+          <p class="art_date">13/May/2025</p>
+          <img src="images/art/13-5-2025-thumb.jpg" width="100%">
+          <br>
+          <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/785264772327325696/im-kinda-hungry-a-recent-sketch?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+          <a title="Instagram" href="https://www.instagram.com/p/DJl82pRIiYP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+          <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lqwqjmc3qc2v" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+          <a title="Newgrounds" href="https://www.newgrounds.com/art/view/terazik-mubaloo/dude-s-kinda-hungry" target="_blank"> <img src="images/favicons/newgrounds.jpg" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2025 art_2025compl_art" title="I am very late on this challenge I'm making for myself, but at least this one has more effort put into it. (I did still get way too tired to do the clothing details. I think the next ones might be done on paper, or at least started on paper.)">
+          <b> 2025-Fanart #2: "What We Do in the Shadows" </b>
+          <p class="art_date">10/Apr/2025</p>
+          <p class="watch_date"><b>Fin.Watching:</b> 8/Jan/2025</p>
+          <img src="images/art/Nandor-thumb.jpg" width="100%">
+          <br>
+          <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/780460432010969088/i-am-very-late-on-this-challenge-im-making-for?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+          <a title="Instagram" href="https://www.instagram.com/p/DIRgyIoo2DI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+          <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7491735460385983766?is_from_webapp=1&sender_device=pc" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+          <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lqz4fwaics2d" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2025" title="First drawing in so long!!!
+
+This was my entry to @to.tostaki's DTIYS on Instagram
+
+I feel like I didnt put as much time and effort as I should've, and yet I still think its one of my best drawings yet!">
+          <b> @to.tostaki's DTIYS </b>
+          <p class="art_date">16/Mar/2025</p>
+          <img src="images/art/tostakiDTIYS-thumb.jpg" width="100%">
+          <br>
+          <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/778131256033542144/first-drawing-in-so-long-this-was-my-entry-to?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+          <a title="Instagram" href="https://www.instagram.com/p/DHPUIavI2Lx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+          <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7482195686113479958" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2025 art_2025compl_art" title="A goal I want to reach this year is making a drawing for every show/ piece of media I finish. And this drawing isnt complete, but I didn't feel like finishing it, and instead of procrastinating, I thought it best to just post it anyway. ">
+          <b> 2025-Fanart #1: "The Edge of Sleep" (unfinished, duh..) </b>
+          <p class="art_date">30/Jan/2025</p>
+          <p class="watch_date"><b>Fin.Watching:</b> 5/Jan/2025</p>
+          <img src="images/art/Edge%20of%20Sleep-thumb.jpg" width="100%">
+          <br>
+          <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/774135702097100800/a-goal-i-want-to-reach-this-year-is-making-a?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+          <a title="Instagram" href="https://www.instagram.com/p/DFdzz-XI5YY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+          <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7465829403591707926" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+          <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lgyhezre4s2i" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2025 terazik_dal">
+            <b> Render of my OC Dal !  </b>
+            <p class="art_date">18/Jan/2025</p>
+            <img src="images/art/DalRender-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/773036153083396096/render-of-my-oc-dal?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DE-iYQ7IuTj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/video/7461330575215938838" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lfzxzastk22m" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2025" title="I unfortunately didn't get to finish rendering as I wanted to, since I accidentally didn't save the project file, I only saved a .jpg, before closing the project for a break. Still fairly happy with the results! ">
+            <b> Face rendering practice </b>
+            <p class="art_date">11/Jan/2025</p>
+            <img src="images/art/woman-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/772407252406648832/i-unfortunately-didnt-get-to-finish-rendering-as?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DEsqAxHO843/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/video/7458777351904578838" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lfipru7fb22z" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2025" title="It wasn't originally gonna be wolverine, just a simple sketch at school to practice with faces, but I drew mutton chops and thought, why not!
+
+I did this with a bit of a combo of my previous rendering processes. Drawing lineart, then simple colors underneath (+ some very basic shading), and then finally painting over everything">
+            <b> Wolverine drawing!!  </b>
+            <p class="art_date">8/Jan/2025</p>
+            <img src="images/art/wolverine-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/772122430981455872/wolverine-drawing-it-wasnt-originally-gonna-be?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DEklZb2o8u0/?img_index=1" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/video/7457579620355935510" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lfal64h3mk2w" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2024 rotateImg terazik_hugo" title="hover to flip design! (design works both ways)">
+            <p class="rotateElement" style="float: left;"><b> A drawing of my OC Hugo! </b></p>
+            <p class="art_date rotateElement">22/Dec/2024</p>
+            <img src="images/art/HugoFlip-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/770561178439172096?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav rotateElement"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DD4UZ5cI4FZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav rotateElement"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7451209476750707990" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav rotateElement"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3ldvfc4vvc22y" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav rotateElement"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2024 terazik_zhazgar" title="Painting again 'cause it's so fun!!! (But very time consuming.)
+This is a creature I've designed, that's called a Zhazgar!
+I don't know the IPA well, but I think it'd be pronounced /ʐˈazɡar/">
+            <b> Zhazgar <br>(technical name: Zhazgarsti) </b>
+            <p class="art_date">9/Dec/2024</p>
+            <img src="images/art/Zhasgarsti%202-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/769389979841462272/painting-again-cause-its-so-fun-but-very?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DDW8N7ZI51S/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7446396911231290646" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lcura6g7ck22" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2024" title="Self portrait in the style of Arcane!!
+
+I did not expect to be capable of drawing like this, since ive never really done 'digital painting before.">
+            <b> Arcane self portrait </b>
+            <p class="art_date">3/Dec/2024</p>
+            <img src="images/art/ARCANE%20self%20portrait-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/768867800737513472/self-portrait-in-the-style-of-arcane-i-did-not?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DDIEDDKI92W/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7444258286507003158" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lcgctfjwpk2s" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2024 sketch" title="fanart of Sevika from Arcane">
+            <b> Sevika sketch </b>
+            <p class="art_date">20/Nov/2024</p>
+            <img src="images/art/Sevika.png" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/767846583734763520/sevika-sketch?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lbht72n6ls2f" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2024 sketch" title="Sketches I just did, including 2 random ppl I found on Pinterest and Herbert West from Reanimator!!">
+            <b> Multiple sketches </b>
+            <p class="art_date">18/Nov/2024</p>
+            <img src="images/art/multiple-sketches-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/767479578118815744/sketches-i-just-did-including-2-random-ppl-i?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7438563257368972566" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lbhtkzvya22v" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2024" title="some quick fanart i just did for the webcomic Psycho Star by Astrid Ztar!!">
+            <b> <a href="https://insect.christmas/psychostar/" target="_blank" title="link to the comic"><u>Psycho Star</u></a> fanart </b>
+            <p class="art_date">10/Nov/2024</p>
+            <img src="images/art/caprino-thumb.jpg" width="100%">
+            <img src="images/art/Star-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/766757933377781760/some-quick-fanart-i-just-did-for-the-webcomic?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="insect.christmas" href="https://insect.christmas/forum/viewtopic.php?p=5957#p5957" target="_blank"> <img src="https://file.garden/aCm1Y7VUCxPnxoFW/favicon/insect.christmas.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2024" title="I'm currently working on a custom hard cover for my copy of Terry Pratchett's 'Going Postal', and this is the front part I just finished! I am planning to change the text, but only just to make it a bit clearer, I'm probably gonna keep the handwritten look of it">
+            <b> Moist Von Lipwig! </b>
+            <p class="art_date">9/Nov/2024</p>
+            <img src="images/art/Going%20Postal%20Cover%20Front-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/766654884859772928/im-currently-working-on-a-custom-hard-cover-for?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DCJK6OitahW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7435194974645407009" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+            <a title="Bluesky" href="https://bsky.app/profile/terazik-mubaloo.bsky.social/post/3lbhtwvrwhk2v" target="_blank"> <img src="images/favicons/bluesky.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2024 terazik_krohtil" title="I haven't drawn him in a while so I'm glad I did this">
+            <b> My OC Krohtil </b>
+            <p class="art_date">6/Nov/2024</p>
+            <img src="images/art/krohtil-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/766383349644378112/my-oc-krohtil?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DCBe_Ontmvx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7434076073765129505" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2024 terazik_yosva" title="spooky art for spooky month!!">
+            <b> OC: Yosva </b>
+            <p class="art_date">9/Oct/2024</p>
+            <img src="images/art/Yosva-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/763809459965444096/did-a-bit-of-a-simple-rendering-of-a-recent?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DA4Seiytk9k/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7423532886810316064" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2024" title="First drawing I've posted in a while. Thanakios and JohnyPeace from Sofita!">
+            <b> <a href="https://www.instagram.com/sofitaofficial/" target="_blank" title="link to the comic"><u>Sofita</u></a> fanart </b>
+            <p class="art_date">25/Sep/2024</p>
+            <img src="images/art/tamtoum-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/762615356435152896/first-drawing-ive-posted-in-a-while-thanakios?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/DAWXHHutCZJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7418643883124477216" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+      <td>
+        <div class="art_thumb art_2024" title="sketch I did today.">
+            <b> Disco? </b>
+            <p class="art_date">7/Aug/2024</p>
+            <img src="images/art/Disco-thumb.jpg" width="100%">
+            <br>
+            <a title="Tumblr" href="https://www.tumblr.com/terazik-mubaloo/758099502522564608/a-sketch-i-did-today?source=share" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
+            <a title="Instagram" href="https://www.instagram.com/p/C-V_lngNPsX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
+            <a title="Tiktok" href="https://www.tiktok.com/@terazik_mubaloo/photo/7400212754776263968" target="_blank"> <img src="images/favicons/tiktok.png" class="art_thumb_fav"> </a>
+        </div>
+      </td>
+
+
+    </tr>
+  </table>
+
+  <table width=100% style="padding-top: 50px;">
+    <tr width=100%>
+      <td width=45%>
+      </td>
+      <td style="margin-left: auto; margin-right:auto;">
+        <div id="copyright">
+          Copyright© 2025 terazik-mubaloo
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <footer>
+<!--     <p style="margin-left: auto; margin-right: auto;">terazik-mubaloo - est 2025</p> -->
+  </footer>
+  </body>
+</html>

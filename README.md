@@ -1,2 +1,1 @@
-# Art-Website
- A website to post all my art to, along with other stuff.
+# [Website Link!](https://terazik-mubaloo.github.io/Art-Website/)

@@ -1,0 +1,16 @@
+body {
+    background: url("../images/mountn.png") fixed 50% 0%;
+    background-size: cover;
+
+    color: white;
+    font-family: Georgia;
+    font-size: 15px;
+    text-align: center;
+}
+
+.dotted_brown_solid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
