@@ -1,0 +1,10 @@
+body {
+    background: url("../images/cardboard.jpg") fixed 50% 0%;
+    background-size: cover;
+
+    color: white;
+    font-family: Georgia;
+    font-size: 15px;
+    text-align: center;
+}
+
