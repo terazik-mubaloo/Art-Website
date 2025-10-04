@@ -196,6 +196,12 @@ td {
     font-size: 12px;
 }
 
+.music_date {
+    float: right;
+    color: white;
+    font-size: 12px;
+}
+
 .watch_date {
     float: left;
     color: grey;
@@ -408,6 +414,10 @@ td {
     }
 
     .art_date {
+        font-size: 20px;
+    }
+
+    .music_date {
         font-size: 20px;
     }
 
