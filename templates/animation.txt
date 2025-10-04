@@ -2,7 +2,9 @@
         <div class="art_thumb art_2025">
             <b> ART TITLE </b>
             <p class="art_date">DD/MMM/Year</p>
-            <img src="ANIMATION THUMBNAIL" width="100%">
+            <div><video width="100%" controls>
+              <source src="ANIMATION VIDEO"
+            </video></div>
             <br>
             <a title="Tumblr" href="TUMBLR LINK" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
             <a title="Instagram" href="INSTAGRAM LINK" target="_blank"> <img src="images/favicons/instagram.png" class="art_thumb_fav"> </a>
