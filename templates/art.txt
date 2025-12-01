@@ -2,7 +2,6 @@
         <div class="art_thumb art_2025">
             <b> ART TITLE </b>
             <p class="art_date">DD/MMM/Year</p>
-            <p class="watch_date"><b>Fin.Watching:</b> DD/MMM/Year</p>
             <img src="DRAWING THUMBNAIL" width="100%">
             <br>
             <a title="Tumblr" href="TUMBLR LINK" target="_blank"> <img src="images/favicons/tumblr.png" class="art_thumb_fav"> </a>
