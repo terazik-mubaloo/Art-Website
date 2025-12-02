@@ -1,5 +1,5 @@
 body {
-    background: url("../images/mountn.png") fixed 50% 0%;
+    background: url("/images/mountn.png") fixed 50% 0%;
     background-size: cover;
 
     color: white;
