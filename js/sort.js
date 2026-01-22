@@ -14,6 +14,10 @@ $(document).ready(function(){
         $(".art_thumb").parent().hide();
         $(".art_2025").parent().show(200);
     });
+    $("#sort_2026").click(function(){
+        $(".art_thumb").parent().hide();
+        $(".art_2026").parent().show(200);
+    });
     $("#sort_sketches").click(function(){
         $(".art_thumb").parent().hide();
         $(".sketch").parent().show(200);
