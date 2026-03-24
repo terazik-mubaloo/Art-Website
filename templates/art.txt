@@ -1,6 +1,6 @@
 <!-- NEW POST -->
 <td>
-        <div class="art_thumb art_2025">
+        <div class="art_thumb art_2026">
             <b> ART TITLE </b>
             <p class="art_date">DD/MMM/Year</p>
             <img src="DRAWING THUMBNAIL" width="100%">
