@@ -1,14 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import '@fontsource/dejavu-serif';
 
 body {
     background: url("../images/sky.png") fixed 50% 0%;
     background-size: cover;
 
     color: white;
-    font-family: Georgia;
-    font-size: 12px;
+    font-family: 'DejaVu Serif', serif;
+    font-size: 1.2rem;
 }
-
-
 
 a {
     font-size: 13px;
@@ -16,140 +16,26 @@ a {
     text-decoration:none;
 }
 
-#demo {
-    color: red;
-    height: 100px;
-}
-
-#table_id {
-    display: block;
-}
-#table_id td {
-    display: inline-block;
-}
-
-#table_sorters {
-    display: block;
-}
-
-#table_sorters td {
-    display: inline-block;
-    max-width: 77%;
-}
-
-#table_id2 {
-    display: block;
-}
-
-#table_id2 td {
-    display: inline-block;
-    max-width: 77%;
-}
-
-td {
-    max-width:49%;
-}
-
-.dotted_green {
-    background-color: rgb(45,39,34);
-    background-color: rgba(172,190,133,0.5);
-    padding: 8px;
-    content: "";
-    clear: both;
-    display: table;
-    border-radius: 5px;
-    width: 100%;
-    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%)
-}
-
-.art_stash_container {
-    background-color: rgb(45,39,34);
-    background-color: rgba(172,190,133,0.5);
-    padding: 10px;
-    content: "";
-    clear: both;
-    display: table;
-    border-radius: 5px;
-    max-width: 70%;
-    vertical-align:top;
-    border-spacing:20px;
-    border-collapse:separate;
-    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%)
-}
-
-.dotted_brown_solid {
-    background-color: rgb(45,39,34);
-    background-color: rgba(45,39,34,0.9);
-    padding: 10px;
-    padding-left: 40px;
-    padding-right: 50px;
-    content: "";
-    clear: both;
-    display: table;
-    border-top: 5px groove #D9DCBE;
-    border-left: 5px groove #D9DCBE;
-    border-right: 5px ridge #D9DCBE;
-    border-bottom: 5px ridge #D9DCBE;
-    border-radius: 5px;
-}
-
-.light_brown_solid {
-    background-color: #4F453F;
-    background-color: rgba(79,69,63,0.9);
-    padding: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    content: "";
-    clear: both;
-    display: table;
-    border-top: 5px groove #D9DCBE;
-    border-left: 5px groove #D9DCBE;
-    border-right: 5px ridge #D9DCBE;
-    border-bottom: 5px ridge #D9DCBE;
-    border-radius: 5px;
-}
-
-.top_links {
-    float: left;
-    color: white;
-    background-color: rgb(45,39,34);
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    content: "";
-    clear: both;
-    display: table;
-    border-top: 5px groove #BA6BD8;
-    border-left: 5px groove #BA6BD8;
-    border-right: 5px ridge #BA6BD8;
-    border-bottom: 5px ridge #BA6BD8;
-    border-radius: 5px;
-    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
-    font-size: 18;
-}
-.top_links:hover {
-    background-color: #7B458F;
-}
-
-#art_stash_button {
-    text-align: center;
-    width:100px;
-}
-
-#links_title {
-    color:#96928D;
+li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .link {
+    border: none;
     float: left;
     color: white;
     min-width: 160px;
     padding: 3px;
-    content: "";
-    clear: both;
-    display: table;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .link:hover {
     color: white;
@@ -157,48 +43,227 @@ td {
     box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px rgb(255 255 255 / 16%), inset 0px -13px 6px -10px rgb(66 66 66 / 38%)
 }
 
-#links_table {
-    max-width: 190px;
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-side,.right-side {
+    margin: 0px;
+}
+
+.fav-img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.parent-img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img2 {
+    position: absolute;
+    top: 30px;
+    left: 0.5rem;
+/*     border: 1px green solid; */
+}
+
+.brown-container {
+    width: 60%;
+    background-color: rgba(45,39,34);
+    background-color: rgba(45,39,34,0.8);
+    padding: 3rem;
+    border-top: 5px groove #D9DCBE;
+    border-left: 5px groove #D9DCBE;
+    border-right: 5px ridge #D9DCBE;
+    border-bottom: 5px ridge #D9DCBE;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.links-box {
+    min-width: 12rem;
+    padding: 1rem;
+    padding-top: 0.3rem;
+    background-color: #4F453F;
+    background-color: rgba(79,69,63,0.9);
+    border-top: 5px groove #D9DCBE;
+    border-left: 5px groove #D9DCBE;
+    border-right: 5px ridge #D9DCBE;
+    border-bottom: 5px ridge #D9DCBE;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links-box h2 {
+    color:#96928D;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 0.1rem;
+}
+
+#links-title {
+    color:#96928D;
+}
+
+.green-box {
+    background-color: rgb(45,39,34);
+    background-color: rgba(172,190,133,0.5);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%)
+}
+
+.links-break {
+    color:gray;
+    background-color:gray;
+    width: 100%;
+}
+
+.custom-break {
+    color:gray;
+    background-color:gray;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.music-date {
+    font-size: 20px;
+    text-align: right;
+}
+
+.music {
+
+}
+
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-box {
+    border: 0;
+    width: 13rem;
+    height: 13rem;
+}
+
+.contact {
+    display: flex;
+    flex: 1;
+}
+
+.stash-button {
+    background-color: rgb(45,39,34);
+    width: 180px;
+    height: 164px;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 5px groove #BA6BD8;
+    border-left: 5px groove #BA6BD8;
+    border-right: 5px ridge #BA6BD8;
+    border-bottom: 5px ridge #BA6BD8;
+    border-radius: 5px;
+    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
+    margin: 5px;
+}
+.stash-button:hover {
+    background-color: #7B458F;
+    transform: scale(1.05);
+}
+
+.link-button {
+    background-color: #2D2722;
+    width: 180px;
+    height: 164px;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 10px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
+    margin: 5px;
+}
+
+.link-button:hover {
+    background-color: #4f443c;
+    color: turquoise;
+}
+
+.stashes {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .pixelated {
     image-rendering: pixelated;
 }
 
-.art_thumb {
+.username-title {
+    font-size: 10rem;
+    text-align: center;
+    margin-bottom: 0.1rem;
+    margin-top: 10rem;
+    font-family: "Poppins", serif;
+    text-shadow: 2px 2px black;
+}
+
+.showreel {
+    padding: 2rem;
+}
+
+.brown-box {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.anim-list {
+}
+
+.art_stash_container {
+    max-width: 80%;
+}
+
+.anim-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.anim-box {
     background-color: rgb(45,39,34);
     color: white;
     padding: 7px;
     max-height: 10%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     border: 6px double #fff;
     border-radius: 15px;
-    content: "";
-    clear: both;
-    display: table;
-    margin: 15px;
-}
-
-.art_thumb_fav {
-    width: 10%;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    width: 28rem;
 }
 
 .art_date {
     float: right;
     color: grey;
-    font-size: 12px;
-}
-
-.music_date {
-    float: right;
-    color: white;
     font-size: 12px;
 }
 
@@ -208,293 +273,26 @@ td {
     font-size: 13px;
 }
 
-.sort_button {
-    background-color: rgb(45,39,34);
-    color: white;
-    padding: 10px;
-    border-radius: 25px;
-    min-width: 100px;
-    font-size: 15px;
+.art_thumb_fav {
+    width: 10%;
 }
 
-.sort_button:focus {
-    background-color: #FFBCFE;
-    color: black;
+.anim-title {
+    font-size: 1.1rem;
+    text-align: left;
+    margin: 0rem;
 }
 
-.sorters {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 60%;
-    padding: 10px;
+.about-box {
+    display: flex;
 }
 
-.rotateImg {
-    transition: transform 0.5s ease;
+.blinkies {
+
 }
 
-.rotateImg:hover {
-    transform: rotate(180deg);
-}
-.rotateImg:hover .rotateElement {
-    transform: rotate(180deg);
-}
-
-#copyright {
-    font-size: 14;
+.copyright {
+    font-size: 1rem;
     text-shadow: 2px 2px black;
-}
-
-#neocities_button {
-    width:20%;
-}
-
-.fav_img {
-    width: 20px;
-    height: 20px;
-}
-
-#front_page_main {
-    min-width: 100%;
-    width: 1100px;
-}
-
-#front_page_main_intro {
-    padding-top: 20px;
-}
-
-.row > .column {
-    padding: 0 8px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Create four equal columns that floats next to eachother */
-.column {
-    float: left;
-    width: 25%;
-}
-
-/* The Modal (background) */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Modal Content */
-.modal-content {
-    position: relative;
-    background-color: rgba(0, 0, 0, 0);
-    margin: auto;
-    padding: 0;
-    width: 90%;
-    max-width: 1200px;
-}
-
-/* The Close Button */
-.close {
-    color: white;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 40px;
-    font-weight: bold;
-}
-.close:hover,
-.close:focus {
-    color: #999;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* Hide the slides by default */
-.mySlides {
-    display: none;
-}
-
-
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-}
-
-/* Caption text */
-.caption-container {
     text-align: center;
-    background-color: black;
-    padding: 2px 16px;
-    color: white;
 }
-
-.music_box {
-    border: 0; width: 150px; height: 150px;
-}
-
-/* Tooltip container */
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* Add dots under the hoverable text */
-    cursor: pointer;
-}
-
-/* Tooltip text */
-.tooltiptext {
-    visibility: hidden; /* Hidden by default */
-    width: 130px;
-    background-color: black;
-    color: #fffffff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1; /* Ensure tooltip is displayed above content */
-}
-
-/* Show the tooltip text on hover */
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media only screen and (orientation: portrait) {
-
-    body {
-        font-size: 50px;
-    }
-
-    a {
-        font-size: 37px;
-    }
-
-    h1 {
-        font-size: 80px;
-    }
-
-    h2 {
-        font-size: 70px;
-    }
-
-    h3 {
-        font-size: 40px;
-    }
-
-    ul {
-        font-size: 30px;
-    }
-
-    #links_title {
-        font-size: 70px;
-    }
-
-    #link_title_div {
-        text-align: center;
-    }
-
-    .link {
-        font-size: 0px;
-        padding: 20px;
-        min-width: 1%;
-    }
-
-    .top_links {
-        font-size: 40px;
-    }
-
-    #art_stash_button {
-        min-width:300px;
-        width:300px;
-    }
-
-    #links_table {
-        max-width: 1000px;
-        display: block ruby;
-    }
-
-    .custom_break {
-        height:5px;
-        border-width:0;
-        color:gray;
-        background-color:gray;
-    }
-
-    td {
-        max-width: 100%;
-    }
-
-    .art_stash_container {
-        max-width: 80%;
-    }
-
-    .art_date {
-        font-size: 20px;
-    }
-
-    .music_date {
-        font-size: 20px;
-    }
-
-    .watch_date {
-        font-size: 22px;
-    }
-
-    b {
-        font-size: 25px;
-    }
-
-    #copyright {
-        font-size: 25px;
-    }
-
-    .fav_img {
-        width: 80px;
-        height: 80px;
-    }
-
-    #table_id2 td {
-        max-width: 80%;
-    }
-
-    #table_sorters td {
-        max-width: 20%;
-    }
-
-    .sort_button {
-        font-size: 30px;
-        margin-right: 40px;
-        padding: 60px;
-    }
-
-    .sorters {
-        max-width: 90%;
-    }
-
-    .art_thumb_fav {
-        width: 12%;
-    }
-
-    .music_box {
-        border: 0;
-        width: 300px;
-        height: 300px;
-    }
-
-    #front_page_main_intro {
-        padding-top: 80px;
-    }
-}
-
-

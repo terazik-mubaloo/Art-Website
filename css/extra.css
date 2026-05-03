@@ -1,5 +1,5 @@
 body {
-    background: url("/images/mountn.png") fixed 50% 0%;
+    background: url("../images/mountn.png") fixed 50% 0%;
     background-size: cover;
 
     color: white;
@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-.dotted_brown_solid {
+.links-box {
     position: absolute;
     top: 50%;
     left: 50%;
