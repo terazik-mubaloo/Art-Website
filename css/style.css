@@ -301,5 +301,17 @@ li {
 @media only screen and (orientation: portrait) {
     body {
         background-size: auto;
+        background-attachment: local;
+    }
+
+    .brown-container {
+        width: 90%;
+    }
+
+    .stashes {
+        flex-direction: row;
+    }
+    .brown-box {
+        flex-direction: column;
     }
 }
