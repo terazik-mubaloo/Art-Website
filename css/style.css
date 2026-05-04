@@ -297,6 +297,23 @@ li {
     text-align: center;
 }
 
+@keyframes myAnimation {
+    from {
+        margin-left: 0%;
+    }
+    to {
+        margin-left: 90%;
+    }
+}
+
+.walk-cycle {
+    animation-name: myAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    padding-top: 2rem;
+}
+
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media only screen and (orientation: portrait) {
     body {
