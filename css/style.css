@@ -2,7 +2,7 @@
 @import '@fontsource/dejavu-serif';
 
 body {
-    background: url("../images/pic-sky.png") fixed 50% 0%;
+    background: url("../images/pic-sky.jpg") fixed 50% 0%;
     background-size: cover;
     color: white;
     font-family: 'DejaVu Serif', serif;
