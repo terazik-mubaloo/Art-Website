@@ -41,10 +41,11 @@ p {
 /* Mobile friendly */
 @media only screen and (orientation: portrait) {
     .art-frame {
-        width: 88vw;
+        width: auto;
         height: 90vw;
     }
     .art-info {
-        width: 88vw;
+        width: auto;
+/*         margin: 0; */
     }
 }
