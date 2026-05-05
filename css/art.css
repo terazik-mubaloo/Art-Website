@@ -9,8 +9,8 @@ p {
 }
 
 .art-frame {
-    width: 50rem;
-    height: 50rem;
+    width: 50vw;
+    height: 50vw;
     background-color: rgba(45,39,34);
     background-color: rgba(45,39,34,0.8);
     padding: 1rem;
@@ -24,7 +24,7 @@ p {
 }
 
 .art-info {
-    max-width: 70rem;
+    width: 70vw;
     min-height: 10rem;
     background-color: rgba(45,39,34);
     background-color: rgba(45,39,34,0.8);
@@ -36,4 +36,15 @@ p {
     margin: 0 auto;
     margin-top: 2rem;
     box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
+}
+
+/* Mobile friendly */
+@media only screen and (orientation: portrait) {
+    .art-frame {
+        width: 88vw;
+        height: 90vw;
+    }
+    .art-info {
+        width: 88vw;
+    }
 }

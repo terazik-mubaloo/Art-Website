@@ -11,6 +11,25 @@ li {
     text-shadow: 1px 1px black;
 }
 
+h1 {
+    text-align: center;
+}
+
 .header {
     margin-bottom: 2rem;
+}
+
+/* Mobile friendly */
+@media only screen and (orientation: portrait) {
+    .art-frame {
+        width: 88vw;
+        height: 90vw;
+    }
+    .art-info {
+        width: 88vw;
+    }
+    h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
 }
