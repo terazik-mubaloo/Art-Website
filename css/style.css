@@ -2,7 +2,7 @@
 @import '@fontsource/dejavu-serif';
 
 body {
-    background: url("../images/sky.png") fixed 50% 0%;
+    background: url("../images/pic-sky.png") fixed 50% 0%;
     background-size: cover;
 
     color: white;
@@ -11,8 +11,8 @@ body {
 }
 
 a {
-    font-size: 13px;
-    color: #b3a1fc;
+    font-size: 1.2rem;
+    color: #cec3ff;
     text-decoration:none;
 }
 
@@ -262,13 +262,13 @@ li {
 }
 
 .art_date {
-    float: right;
-    color: grey;
+    text-align: right;
+    color: #999999;
     font-size: 12px;
 }
 
 .watch_date {
-    float: left;
+    text-align: right;
     color: grey;
     font-size: 13px;
 }
@@ -312,6 +312,10 @@ li {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     padding-top: 2rem;
+}
+
+.center-text {
+    text-align: center;
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */

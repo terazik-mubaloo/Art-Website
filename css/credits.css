@@ -1,0 +1,12 @@
+body {
+    background-image: url("../images/pic-plane.png");
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+}
+
+li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 1px 1px black;
+}
