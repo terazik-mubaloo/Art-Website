@@ -80,7 +80,7 @@ li {
 }
 
 .brown-container {
-    width: 60%;
+    width: 60vw;
     background-color: rgba(45,39,34);
     background-color: rgba(45,39,34,0.8);
     padding: 3rem;
@@ -330,7 +330,7 @@ li {
     }
 
     .brown-container {
-        width: 90%;
+        width: 70vw;
     }
 
     .stashes {
