@@ -4,10 +4,9 @@
 body {
     background: url("../images/pic-sky.png") fixed 50% 0%;
     background-size: cover;
-
     color: white;
     font-family: 'DejaVu Serif', serif;
-    font-size: 1.2rem;
+    font-size: 1.2rem;s
 }
 
 a {
@@ -16,10 +15,15 @@ a {
     text-decoration:none;
 }
 
+h2 {
+    text-shadow: 1px 1px 4px black;
+}
+
 li {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-shadow: 1px 1px black;
 }
 
 .link {
@@ -220,7 +224,7 @@ li {
     margin-bottom: 0.1rem;
     margin-top: 10rem;
     font-family: "Poppins", serif;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 4px black;
 }
 
 .showreel {
