@@ -99,19 +99,21 @@ class FreezeImages {
 
 // Waits for page to finish loading
 document.addEventListener("readystatechange", function () {
-    // Initialize script
-    const f = new FreezeImages ({ hover: true })
+    if (document.readyState === "complete") {
+        // Initialize script
+        const f = new FreezeImages ({ hover: true })
 
-    // Set event listeners for all buttons
-    for(const el of document.getElementsByClassName('play-gif')) {
-        el.addEventListener('click', () => f.start());
-    }
+        // Set event listeners for all buttons
+        for(const el of document.getElementsByClassName('play-gif')) {
+            el.addEventListener('click', () => f.start());
+        }
 
-    for(const el of document.getElementsByClassName('stop-gif')) {
-        el.addEventListener('click', () => f.stop());
-    }
+        for(const el of document.getElementsByClassName('stop-gif')) {
+            el.addEventListener('click', () => f.stop());
+        }
 
-    for(const el of document.getElementsByClassName('toggle-gif')) {
-        el.addEventListener('click', () => f.toggle());
+        for(const el of document.getElementsByClassName('toggle-gif')) {
+            el.addEventListener('click', () => f.toggle());
+        }
     }
 });
