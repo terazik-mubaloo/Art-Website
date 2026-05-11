@@ -11,6 +11,7 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link href="./css/style.css" rel="stylesheet" type="text/css" media="all">
   <script src="./js/simple-freeze.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 </head>
 <body>
 
@@ -75,17 +76,16 @@
 
         </div>
         <div class="green-box contact">
-          <form>
-            <h4>Contact me:</h4>
-            <label>Message</label>
-            <input type="text" name="message" id="message">
-            <button type="submit">Send</button>
-            <img src="./images/blinkies/under-construction2.gif">
+          <form method="POST" action="form.php" id="contact-form">
+            <h2>Contact me:</h2>
+            <p><label>Name:</label> <input name="myEmail" type="text" /></p>
+            <p><label>Email Address:</label> <input style="cursor: pointer;" name="myEmail" type="email" /></p>
+            <p><label>Message:</label>  <textarea name="message"></textarea> </p>
+            <p><input type="submit" value="Send" /></p>
           </form>
 
         </div>
         <div class="green-box contact">
-
           <form>
             <h4>Guestbook:</h4>
             <label>Message</label>
@@ -119,15 +119,13 @@
             <img src="images/blinkies/stamps/lovemyds.png" title="*red old 3DS">
           </div>
           <!-- Narrow blinkies -->
-          <div class="centered-div">
-            <img src="images/blinkies/drpepper.gif">
-            <img src="images/blinkies/transwave.gif">
-            <iframe src="//incr.easrng.net/badge?key=changeme" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>
-            <img src="images/blinkies/like comp.jpg">
-            <img src="images/blinkies/righttorepair.jpg">
-            <img src="images/blinkies/kde.png">
-            <a href="https://github.com/gorhill/uBlock" target="_blank"><img src="images/blinkies/ublock.gif"></a>
-          </div>
+          <img src="images/blinkies/drpepper.gif">
+          <img src="images/blinkies/transwave.gif">
+          <iframe src="//incr.easrng.net/badge?key=changeme" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>
+          <img src="images/blinkies/like comp.jpg">
+          <img src="images/blinkies/righttorepair.jpg">
+          <img src="images/blinkies/kde.png">
+          <a href="https://github.com/gorhill/uBlock" target="_blank"><img src="images/blinkies/ublock.gif"></a>
           <!-- Wide blinkies -->
           <img src="images/blinkies/aroblinkie.gif">
           <img src="images/blinkies/estrogen.gif">
