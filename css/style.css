@@ -26,6 +26,12 @@ li {
     text-shadow: 1px 1px black;
 }
 
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .link {
     border: none;
     float: left;
@@ -159,8 +165,7 @@ li {
     width: 13rem;
     height: 13rem;
 }
-
-.contact {
+.guestbook {
     display: flex;
     flex: 1;
 }
