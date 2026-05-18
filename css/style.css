@@ -313,6 +313,14 @@ div:target {
     margin: 0.5rem;
 }
 
+.model-box-container {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 22rem;
+}
+
 .model-box {
     background-color: rgb(45,39,34);
     color: white;
@@ -322,18 +330,39 @@ div:target {
     border: 6px double #fff;
     border-radius: 15px;
     width: 20rem;
-    height: 20rem;
-    margin: 0.5rem;
+    min-height: 20rem;
+    margin: 0;
+
+}
+
+.date-box {
+    background-color: #e3c2ff;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 6px double #000000;
+    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
+    max-width: 6.5rem;
+    animation-name: date-move;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.date-box-pos {
+    position: relative;
+    bottom: 22rem;
+    right: 0rem;
 }
 
 .art_date {
     text-align: right;
-    color: #999999;
+    color: #000000;
     font-size: 1rem;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px white;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
 }
 
 .watch_date {
@@ -379,6 +408,19 @@ div:target {
     }
     100% {
         transform: scale(1);
+    }
+}
+
+@keyframes date-move {
+    0% {
+        transform: rotate(0deg) rotateY(0deg);
+    }
+
+    50% {
+        transform: rotate(2deg) rotateY(15deg);
+    }
+    100% {
+        transform: rotate(0deg) rotateY(0deg);
     }
 }
 

@@ -10,7 +10,7 @@ p {
 
 .art-frame {
     width: 60vw;
-    height: 60vw;
+    max-height: 60vw;
     background-color: rgba(45,39,34);
     background-color: rgba(45,39,34,0.8);
     padding: 1rem;
@@ -42,7 +42,7 @@ p {
 @media only screen and (orientation: portrait) {
     .art-frame {
         width: auto;
-        height: 90vw;
+        max-height: 90vw;
     }
     .art-info {
         width: auto;
