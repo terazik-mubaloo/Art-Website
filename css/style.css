@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import '@fontsource/dejavu-serif';
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: url("../images/pic-sky.jpg") fixed 50% 0%;
     background-size: cover;
     color: white;
     font-family: 'DejaVu Serif', serif;
-    font-size: 1.2rem;
+    font-size: 17px;
 }
 
 a {
@@ -26,10 +30,21 @@ li {
     text-shadow: 1px 1px black;
 }
 
+div:target {
+    animation-name: pop;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease;
+}
+
 .poppins {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 4px black;
 }
 
 .link {
@@ -85,7 +100,7 @@ li {
 }
 
 .brown-container {
-    width: 60vw;
+    width: 50vw;
     background-color: rgba(45,39,34);
     background-color: rgba(45,39,34,0.8);
     padding: 3rem;
@@ -95,6 +110,34 @@ li {
     border-bottom: 5px ridge #D9DCBE;
     border-radius: 10px;
     margin: 0 auto;
+}
+
+.thumbnail-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.program-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2px;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.program-gallery figure {
+    margin: 0;
+    flex: 0 1 auto;
+}
+
+.program-logo {
+    width: 3rem;
 }
 
 .links-box {
@@ -151,7 +194,10 @@ li {
 }
 
 .music {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
 }
 
 .centered-div {
@@ -194,8 +240,6 @@ li {
 
 .link-button {
     background-color: #2D2722;
-    width: 180px;
-    height: 164px;
     font-size: 18px;
     color: white;
     padding: 5px;
@@ -261,12 +305,25 @@ li {
     color: white;
     padding: 7px;
     max-height: 10%;
-    padding: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0.5rem;
     border: 6px double #fff;
     border-radius: 15px;
-    width: 28rem;
+    width: 20rem;
+    max-height: 25rem;
+    margin: 0.5rem;
+}
+
+.model-box {
+    background-color: rgb(45,39,34);
+    color: white;
+    padding: 7px;
+    max-height: 10%;
+    padding: 0.5rem;
+    border: 6px double #fff;
+    border-radius: 15px;
+    width: 20rem;
+    height: 20rem;
+    margin: 0.5rem;
 }
 
 .art_date {
@@ -299,8 +356,11 @@ li {
     display: flex;
 }
 
-.blinkies {
-
+.narrow-blinkies, .wide-blinkies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
 }
 
 .copyright {
@@ -309,20 +369,20 @@ li {
     text-align: center;
 }
 
-@keyframes myAnimation {
-    from {
-        margin-left: 0%;
+@keyframes pop {
+    0% {
+        transform: scale(1);
     }
-    to {
-        margin-left: 90%;
+
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
     }
 }
 
 .walk-cycle {
-    animation-name: myAnimation;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
     padding-top: 2rem;
     width: 200px;
 }
@@ -336,7 +396,7 @@ li {
 }
 
 .me-cutout {
-    width: 26rem;
+    width: 20rem;
 }
 
 .about-portrait {
@@ -344,11 +404,21 @@ li {
     align-items: end;
 }
 
+.to-top {
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* Mobile friendly */
 @media only screen and (orientation: portrait) {
 
     body {
         font-size: 1rem;
+    }
+
+    .mobile-hide {
+        display: none;
     }
 
     .brown-container {
@@ -381,18 +451,7 @@ li {
         left: -1rem;
         width: 10rem;
     }
-    @keyframes myAnimation {
-        from {
-            margin-left: 0%;
-        }
-        to {
-            margin-left: 80%;
-        }
-    }
     .walk-cycle {
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
         padding-top: 1rem;
         width: 100px;
     }

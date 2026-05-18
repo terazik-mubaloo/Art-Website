@@ -19,18 +19,21 @@
     <div class="left-side">
     </div>
     <div class="right-side">
+      <a class="link-button" href="mailto:terazik_mubaloo@proton.me" title="Send me an email">✉️ Contact</a>
       <a class="link-button" href="./credits.html">Credits</a>
     </div>
   </header>
 
   <main class="middle-section">
-    <img class="walk-cycle pixelated" src="./images/stash-3d.gif">
+    <marquee behavior="scroll" direction="right" scrollamount="30">
+      <img class="pixelated walk-cycle" src="./images/stash-3d.gif">
+    </marquee>
     <h1 class="username-title">Razla</h1>
     <div class="brown-container">
       <img width=100% class="pixelated" src="./images/blinkies/under-construction.gif">
       <p>I'm currently redesigning the whole website, so many elements will be broken or placeholders, like this showreel just below.</p>
       <div class="green-box">
-        <u><h2 style="text-align: center;">Showreel:</h2></u>
+        <u><h2 class="center-text">Showreel:</h2></u>
         <video width="100%" controls>
           <source src="./videos/showreel.mp4">
         </video>
@@ -43,12 +46,25 @@
         </div>
         <div class="green-box about-box">
           <div class="about">
-            <u><h2 style="text-align: center;">About me:</h2></u>
+            <u><h2 class="center-text text-shadow">About me:</h2></u>
             <ul>
             <li>I'm "razla", or Sophie. (she/her)</li>
-            <li>I mostly post my drawings (both on paper and digital), but I also post my animations and 3d work some times!</li>
-            <li>I work in Krita mostly, but also Tahoma2D for animating. For 3D stuff, I use Blender.</li>
+            <li>I study animation at the University for The Creative Arts.</li>
+            <li>I specialise in 2D animation, but I want to improve my skills at 3D.</li>
+            <li>On this website, I showcase all the art I do ‒drawings, animations, 3D models, etc.‒</li>
+            <u><h3 class="text-shadow">Profficient in:<h3></u>
             </ul>
+            <div class="program-gallery">
+              <figure>
+                <img class="program-logo" src="./images/programs/blender.png">
+              </figure>
+              <figure>
+                <img class="program-logo" src="./images/programs/krita.png">
+              </figure>
+              <figure>
+                <img class="program-logo" src="./images/programs/opentoonz.webp">
+              </figure>
+            </div>
           </div>
           <div class="about-portrait">
             <img class="me-cutout" src="./images/me-cutout.png">
@@ -75,11 +91,11 @@
           <a href="https://artfight.net/~razla" target="_blank" class="link"><img src="images/favicons/artfight.png" class="fav-img">ArtFight</a>
 
         </div>
-        <div class="green-box">
+        <div class="green-box mobile-hide" id="contact">
           <h4>Contact me:</h4>
           <p class="poppins">email: <a href="mailto:terazik_mubaloo@proton.me">terazik_mubaloo@proton.me</a><p>
         </div>
-        <div class="green-box guestbook">
+        <div class="green-box guestbook mobile-hide" id="guestbook">
 
           <form>
             <h4>Guestbook:</h4>
@@ -113,36 +129,43 @@
           <div class="centered-div">
             <img src="images/blinkies/stamps/lovemyds.png" title="*red old 3DS">
           </div>
-          <!-- Narrow blinkies -->
-          <img src="images/blinkies/drpepper.gif">
-          <img src="images/blinkies/transwave.gif">
-          <iframe src="//incr.easrng.net/badge?key=changeme" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>
-          <img src="images/blinkies/like comp.jpg">
-          <img src="images/blinkies/righttorepair.jpg">
-          <img src="images/blinkies/kde.png">
-          <a href="https://github.com/gorhill/uBlock" target="_blank"><img src="images/blinkies/ublock.gif"></a>
-          <!-- Wide blinkies -->
-          <img src="images/blinkies/aroblinkie.gif">
-          <img src="images/blinkies/estrogen.gif">
-          <img src="images/blinkies/reanimator.webp">
-          <a href="https://rustyquill.com/show/the-magnus-archives/" target="_blank"><img src="images/blinkies/TMA.gif"></a>
-          <!--Music-->
-          <a href="https://www.willwood.net/" target="_blank"><img src="images/blinkies/will-wood.gif"></a>
-          <img src="images/blinkies/oingoboingo.gif">
-          <a href="https://www.ofmontreal.net/" target="_blank"><img src="images/blinkies/of-montreal.webp"></a>
-          <img src="images/blinkies/smiths.gif">
-          <a href="https://www.houseoftomorrow.com/magneticfields" target="_blank"><img src="images/blinkies/magnetic-fields.webp" width=150px></a>
-          <a href="https://allsparks.com/" target="_blank"><img src="images/blinkies/sparks.webp" width=150px></a>
+          <div class="narrow-blinkies">
+            <!-- Narrow blinkies -->
+            <img src="images/blinkies/drpepper.gif">
+            <img src="images/blinkies/transwave.gif">
+            <iframe src="//incr.easrng.net/badge?key=changeme" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>
+            <img src="images/blinkies/like comp.jpg">
+            <img src="images/blinkies/righttorepair.jpg">
+            <img src="images/blinkies/kde.png">
+            <a href="https://github.com/gorhill/uBlock" target="_blank"><img src="images/blinkies/ublock.gif"></a>
+          </div>
+          <div class="wide-blinkies">
+            <!-- Wide blinkies -->
+            <img src="images/blinkies/aroblinkie.gif">
+            <img src="images/blinkies/estrogen.gif">
+            <img src="images/blinkies/reanimator.webp">
+            <a href="https://rustyquill.com/show/the-magnus-archives/" target="_blank"><img src="images/blinkies/TMA.gif"></a>
+            <!--Music-->
+            <a href="https://www.willwood.net/" target="_blank"><img src="images/blinkies/will-wood.gif"></a>
+            <img src="images/blinkies/oingoboingo.gif">
+            <a href="https://www.ofmontreal.net/" target="_blank"><img src="images/blinkies/of-montreal.webp"></a>
+            <img src="images/blinkies/smiths.gif">
+            <a href="https://www.houseoftomorrow.com/magneticfields" target="_blank"><img src="images/blinkies/magnetic-fields.webp" width=150px></a>
+            <a href="https://allsparks.com/" target="_blank"><img src="images/blinkies/sparks.webp" width=150px></a>
 
-          <a href="images/blinkies/download-button.gif" download><img src="images/blinkies/download-button.gif"></a>
-          <img src="images/blinkies/get-doxxed.gif">
-          <img src="images/blinkies/i-love-comp.gif">
-          <img src="images/blinkies/sonic.gif">
+            <a href="images/blinkies/download-button.gif" download><img src="images/blinkies/download-button.gif"></a>
+            <img src="images/blinkies/get-doxxed.gif">
+            <img src="images/blinkies/i-love-comp.gif">
+            <img src="images/blinkies/sonic.gif">
+          </div>
         </div>
       </div>
     </div>
   </main>
   <footer>
+    <div class="centered-div">
+      <a class="link-button" href="#top">Back to Top</a>
+    </div>
     <p class="copyright">Copyright© 2025-2026 razla</p>
   </footer>
 
