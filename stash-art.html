@@ -11,7 +11,9 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link href="./css/style.css" rel="stylesheet" type="text/css" media="all">
   <link href="./css/stash-art.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="js/simple-freeze.js"></script>
+  <script src="./js/burger-menu.js"></script>
 </head>
 <body>
 
@@ -20,22 +22,121 @@
       <a class="link-button" href="./index.html">Home</a>
     </div>
     <div class="right-side">
-      <a class="link-button" href="./credits.html">Credits</a>
+      <a class="mobile-hide link-button" href="mailto:terazik_mubaloo@proton.me" title="Send me an email">✉️ Contact</a>
+      <a class="mobile-hide link-button" href="./credits.html">Credits</a>
+      <div class="burger-nav pc-hide">
+        <div id="burger-links">
+          <a class="link-button" href="mailto:terazik_mubaloo@proton.me" title="Send me an email">✉️ Contact</a>
+          <a class="link-button" href="./credits.html">Credits</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="link-button fa fa-bars"></i>
+        </a>
+      </div>
     </div>
   </header>
 
   <main class="middle-section">
     <h1 class="username-title">Art Stash</h1>
     <div class="brown-container">
-      <div class="green-box">
-        <u><h2 style="text-align: center;">Favourite:</h2></u>
-          <a href="./pages-draw/zhasgarsti.html"><img width=100% src="https://64.media.tumblr.com/6e0a6bd65c955e13081f30f37ab2646c/a0889df3ea4b4e3c-d2/s2048x3072/a8fd70022125c923d389046778711027e4045df8.pnj"></a>
+      <div class="thumbnail-gallery">
+        <!--Posts!-->
+        <figure class="model-box-container art_2026" title="">
+          <div class="model-box">
+            <a><img width=100% src="./images/art/yellow_vamp_sketch-thumb.jpg"></a>
+          </div>
+          <div class="date-box date-box-pos">
+            <p class="art_date">07/May/2026</p>
+          </div>
+        </figure>
+        <figure class="model-box-container art_2026" title="">
+          <div class="model-box">
+            <a><img width=100% src="./images/art/newOC_01-thumb.jpg"></a>
+          </div>
+          <div class="date-box date-box-pos">
+            <p class="art_date">24/Mar/2026</p>
+          </div>
+        </figure>
+        <figure class="model-box-container art_2025" title="">
+          <div class="model-box">
+            <a><img width=100% src="./images/art/Companion gun-thumb.jpg"></a>
+          </div>
+          <div class="date-box date-box-pos">
+            <p class="art_date">07/Jun/2025</p>
+          </div>
+        </figure>
+        <figure class="model-box-container art_2025" title="">
+          <div class="model-box">
+            <a><img width=100% src="./images/art/DalRender-thumb.jpg"></a>
+          </div>
+          <div class="date-box date-box-pos">
+            <p class="art_date">18/Jan/2025</p>
+          </div>
+        </figure>
+        <figure class="model-box-container art_2025" title="">
+          <div class="model-box">
+            <a><img width=100% src="./images/art/wolverine-thumb.jpg"></a>
+          </div>
+          <div class="date-box date-box-pos">
+            <p class="art_date">08/Jan/2025</p>
+          </div>
+        </figure>
+        <figure class="model-box-container art_2024" title="">
+          <div class="model-box">
+            <a><img width=100% src="./images/art/HugoFlip-thumb.jpg"></a>
+          </div>
+          <div class="date-box date-box-pos">
+            <p class="art_date">22/Dec/2024</p>
+          </div>
+        </figure>
+        <figure class="model-box-container art_2024" title="This creature I designed called a Zhasgar (/ʐˈazɡar/), was my second attempt at a more painterly approach to digital art, after previously having tried to make a self portrait in the style of the show Arcane.">
+          <div class="model-box">
+            <a href="./pages-draw/zhasgarsti.html"><img width=100% src="./images/art/Zhasgarsti 2-thumb.jpg"></a>
+          </div>
+          <div class="date-box date-box-pos">
+            <p class="art_date">09/Dec/2024</p>
+          </div>
+        </figure>
+        <figure class="model-box-container art_2024" title="">
+          <div class="model-box">
+            <a><img width=100% src="./images/art/ARCANE self portrait-thumb.jpg"></a>
+          </div>
+          <div class="date-box date-box-pos">
+            <p class="art_date">03/Dec/2024</p>
+          </div>
+        </figure>
+
+        <figure class="model-box-container art_2024" title="">
+          <div class="model-box">
+            <a><img width=100% src="./images/art/falinChimera-thumb.jpg"></a>
+          </div>
+          <div class="date-box date-box-pos">
+            <p class="art_date">03/May/2024</p>
+          </div>
+        </figure>
+        <figure class="model-box-container art_2024" title="">
+          <div class="model-box">
+            <a><img width=100% src="./images/art/willwooddtiys-thumb.jpg"></a>
+          </div>
+          <div class="date-box date-box-pos">
+            <p class="art_date">01/May/2024</p>
+          </div>
+        </figure>
+        <figure class="model-box-container art_2024" title="">
+          <div class="model-box">
+            <a><img width=100% src="./images/art/malevolent-thumb.jpg"></a>
+          </div>
+          <div class="date-box date-box-pos">
+            <p class="art_date">27/Apr/2024</p>
+          </div>
+        </figure>
       </div>
-      <hr class="custom-break">
-      <img class="pixelated" width=100% src="./images/blinkies/under-construction.gif">
     </div>
   </main>
   <footer>
+    <div class="centered-div">
+      <a class="link-button" href="#top">Back to Top</a>
+    </div>
     <p class="copyright">Copyright© 2025-2026 razla</p>
   </footer>
 

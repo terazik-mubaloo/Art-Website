@@ -1,3 +1,18 @@
 body {
     background-image: url("../images/pic-flowers.jpg");
 }
+
+.brown-container {
+    width: 65vw;
+}
+
+
+
+/* Mobile friendly */
+@media only screen and (orientation: portrait) {
+
+    .brown-container {
+        width: auto;
+        padding: 1.5rem;
+    }
+}
