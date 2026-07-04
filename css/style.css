@@ -510,6 +510,11 @@ div:target {
         display: none;
     }
 
+    #copyright-notice {
+        width: auto;
+        min-width: initial;
+    }
+
     .pc-hide {
         display: initial;
     }
