@@ -1,0 +1,1 @@
+$('#copyright').load('copyright.html');

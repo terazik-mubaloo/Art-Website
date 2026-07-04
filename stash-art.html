@@ -12,6 +12,7 @@
   <link href="./css/style.css" rel="stylesheet" type="text/css" media="all">
   <link href="./css/stash-art.css" rel="stylesheet" type="text/css" media="all">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://www.w3schools.com/lib/w3data.js"></script>
   <script src="js/simple-freeze.js"></script>
   <script src="./js/burger-menu.js"></script>
 </head>
@@ -145,8 +146,12 @@
     <div class="centered-div">
       <a class="link-button" href="#top">Back to Top</a>
     </div>
-    <p class="copyright">Copyright© 2025-2026 razla</p>
+    <div w3-include-html="./reusables/copyright.html" id="copyright-notice"></div>
   </footer>
+
+  <script>
+  w3IncludeHTML();
+  </script>
 
 </body>
 </html>

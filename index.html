@@ -13,7 +13,7 @@
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="./js/simple-freeze.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+  <script src="https://www.w3schools.com/lib/w3data.js"></script>
   <script src="./js/burger-menu.js"></script>
 </head>
 <body>
@@ -183,8 +183,12 @@
     <div class="centered-div">
       <a class="link-button" href="#top">Back to Top</a>
     </div>
-    <p class="copyright">Copyright© 2025-2026 razla</p>
+    <div w3-include-html="./reusables/copyright.html" id="copyright-notice"></div>
   </footer>
+
+  <script>
+  w3IncludeHTML();
+  </script>
 
 </body>
 </html>

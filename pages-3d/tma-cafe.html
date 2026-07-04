@@ -14,37 +14,43 @@
   <link href="../css/art.css" rel="stylesheet" type="text/css" media="all">
   <link href="../css/3d-models.css" rel="stylesheet" type="text/css" media="all">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://www.w3schools.com/lib/w3data.js"></script>
   <script src="../js/burger-menu.js"></script>
 </head>
 <body>
-    <header class="green-box header">
+  <header class="green-box header">
     <div class="left-side">
       <a class="link-button" href="../stash-3d.html">3D Stash</a>
     </div>
     <div class="right-side">
       <a class="link-button" href="../credits.html">Credits</a>
     </div>
-    </header>
-    <main>
-        <div class="art-info center-text">
-            <h2>"TMA Cafe"</h2>
-            <p>My interpretation of the cafe described in the second episode of The Magnus Archives. Made in Blockbench, rendered in Blender.</p>
-            <div class="date-prog-sec header">
-              <div class="left-side">
-                <img class="program-logo" src="../images/programs/blockbench.png">
-                <img class="program-logo" src="../images/programs/blender.png">
-              </div>
-              <div class="date-box right-side">
-                  <p class="art_date">21/Sep/2024</p>
-              </div>
+  </header>
+  <main>
+      <div class="art-info center-text">
+          <h2>"TMA Cafe"</h2>
+          <p>My interpretation of the cafe described in the second episode of The Magnus Archives. Made in Blockbench, rendered in Blender.</p>
+          <div class="date-prog-sec header">
+            <div class="left-side">
+              <img class="program-logo" src="../images/programs/blockbench.png">
+              <img class="program-logo" src="../images/programs/blender.png">
             </div>
-        </div>
-        <div class="centered-div art-frame">
-          <video width="100%" autoplay loop controls><source src="../videos/3d turnarounds/tma-cafe.mp4"></video>
-        </div>
-    </main>
-    <footer>
-      <p class="copyright">Copyright© 2025-2026 razla</p>
-    </footer>
+            <div class="date-box right-side">
+                <p class="art_date">21/Sep/2024</p>
+            </div>
+          </div>
+      </div>
+      <div class="centered-div art-frame">
+        <video width="100%" autoplay loop controls><source src="../videos/3d turnarounds/tma-cafe.mp4"></video>
+      </div>
+  </main>
+  <footer>
+    <div w3-include-html="../reusables/copyright.html" id="copyright-notice"></div>
+  </footer>
+
+  <script>
+  w3IncludeHTML();
+  </script>
+
 </body>
 </html>

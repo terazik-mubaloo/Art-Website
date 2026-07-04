@@ -47,6 +47,11 @@ div:target {
     text-shadow: 1px 1px 4px black;
 }
 
+.basic-link {
+    font-size: initial;
+    font-weight: 600;
+}
+
 .link {
     border: none;
     float: left;
@@ -418,6 +423,12 @@ div:target {
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
+}
+
+#copyright-notice {
+    width: 50vw;
+    min-width: 800px;
+    margin: auto;
 }
 
 .copyright {
