@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background: url("../images/pic-sky.jpg") fixed 50% 0%;
+    background: url("../images/pic-sky.webp") fixed 50% 0%;
     background-size: cover;
     color: white;
     font-family: 'DejaVu Serif', serif;
