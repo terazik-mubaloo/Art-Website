@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background: url("../images/pic-sky.jpg") fixed 50% 0%;
+    background: url("../images/pic-sky.webp") fixed 50% 0%;
     background-size: cover;
     color: white;
     font-family: 'DejaVu Serif', serif;
@@ -45,6 +45,11 @@ div:target {
 
 .text-shadow {
     text-shadow: 1px 1px 4px black;
+}
+
+.basic-link {
+    font-size: initial;
+    font-weight: 600;
 }
 
 .link {
@@ -120,6 +125,7 @@ div:target {
 
 .brown-container {
     width: 50vw;
+    min-width: 800px;
     background-color: rgba(45,39,34);
     background-color: rgba(45,39,34,0.8);
     padding: 3rem;
@@ -175,14 +181,17 @@ div:target {
 }
 
 .links-box h2 {
-    color:#96928D;
+    color:#c1bcb6;
     font-size: 1.2rem;
     text-align: left;
     margin-bottom: 0.1rem;
 }
 
 #links-title {
-    color:#96928D;
+    color:#a6a29c;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.5rem;
 }
 
 .green-box {
@@ -416,6 +425,12 @@ div:target {
     align-content: flex-start;
 }
 
+#copyright-notice {
+    width: 50vw;
+    min-width: 800px;
+    margin: auto;
+}
+
 .copyright {
     font-size: 1rem;
     text-shadow: 2px 2px black;
@@ -495,12 +510,18 @@ div:target {
         display: none;
     }
 
+    #copyright-notice {
+        width: auto;
+        min-width: initial;
+    }
+
     .pc-hide {
         display: initial;
     }
 
     .brown-container {
         width: auto;
+        min-width: initial;
         padding: 1.5rem;
     }
 

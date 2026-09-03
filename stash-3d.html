@@ -12,6 +12,7 @@
   <link href="./css/style.css" rel="stylesheet" type="text/css" media="all">
   <link href="./css/stash-3d.css" rel="stylesheet" type="text/css" media="all">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://www.w3schools.com/lib/w3data.js"></script>
   <script src="js/simple-freeze.js"></script>
   <script src="./js/burger-menu.js"></script>
 </head>
@@ -43,7 +44,7 @@
       <div class="thumbnail-gallery">
         <figure class="model-box-container art_2026" title="A 3D model of a wiimote and nunchuck I made while learning Maya.">
           <div class="model-box">
-            <a href="./pages-3d/wiimote.html"><video width="100%" autoplay loop><source src="videos/3d turnarounds/preview/wiimote.mp4"></video></a>
+            <a href="./pages-3d/wiimote.html"><video width="100%" autoplay muted loop><source src="videos/3d turnarounds/preview/wiimote.mp4"></video></a>
           </div>
           <div class="date-box date-box-pos">
             <p class="art_date">07/May/2026</p>
@@ -69,8 +70,12 @@
     </div>
   </main>
   <footer>
-    <p class="copyright">Copyright© 2025-2026 razla</p>
+    <div w3-include-html="./reusables/copyright.html" id="copyright-notice"></div>
   </footer>
+
+  <script>
+  w3IncludeHTML();
+  </script>
 
 </body>
 </html>
