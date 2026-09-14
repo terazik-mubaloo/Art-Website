@@ -463,15 +463,6 @@ div:target {
     }
 }
 
-.walk-cycle {
-    padding-top: 2rem;
-    width: 220px;
-}
-
-.walk-marquee {
-    scrollamount: 20;
-}
-
 .center-text {
     text-align: center;
 }
@@ -498,6 +489,32 @@ div:target {
 .pc-hide {
     display: none;
 }
+
+/* ———————————————— Animations  ———————————————— */
+
+@keyframes marquee {
+    0% { -moz-transform: translateX(-150%); }
+    100% { -moz-transform: translateX(900%); }
+}
+
+.walk-marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.walk-marquee-content {
+    display: inline-flex;
+    animation: marquee 10s steps(500, end) infinite;
+}
+
+.walk-marquee-content img {
+    vertical-align: middle;
+    padding-top: 2rem;
+    width: 220px;
+}
+
+/* ———————————————— Animations/  ———————————————— */
 
 /* Mobile friendly */
 @media only screen and (orientation: portrait) {
@@ -569,4 +586,21 @@ div:target {
         width: 49%;
         height: 11rem;
     }
+
+    /* ———————————————— Animations  ———————————————— */
+
+    @keyframes marquee {
+        0% { -moz-transform: translateX(-200%); }
+        100% { -moz-transform: translateX(400%); }
+    }
+
+    .walk-marquee-content {
+        animation: marquee 4s steps(400, end) infinite;
+    }
+
+    .walk-marquee-content img {
+        width: 110px;
+    }
+
+    /* ———————————————— Animations/  ———————————————— */
 }
