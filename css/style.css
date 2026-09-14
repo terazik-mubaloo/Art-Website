@@ -493,8 +493,8 @@ div:target {
 /* ———————————————— Animations  ———————————————— */
 
 @keyframes marquee {
-    0% { -moz-transform: translateX(-150%); }
-    100% { -moz-transform: translateX(900%); }
+    0% { transform: translateX(-150%); }
+    100% { transform: translateX(900%); }
 }
 
 .walk-marquee-container {
@@ -590,8 +590,8 @@ div:target {
     /* ———————————————— Animations  ———————————————— */
 
     @keyframes marquee {
-        0% { -moz-transform: translateX(-200%); }
-        100% { -moz-transform: translateX(400%); }
+        0% { transform: translateX(-200%); }
+        100% { transform: translateX(400%); }
     }
 
     .walk-marquee-content {
