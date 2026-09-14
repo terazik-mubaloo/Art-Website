@@ -19,8 +19,9 @@ a {
     text-decoration:none;
 }
 
-h2 {
+h2, h3 {
     text-shadow: 1px 1px 4px black;
+    text-decoration-line: underline;
 }
 
 li {
