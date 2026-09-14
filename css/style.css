@@ -120,6 +120,10 @@ div:target {
     display: none;
 }
 
+.wide-blinkie-img {
+    width: 150px;
+}
+
 /* Style navigation menu links */
 .burger-nav a {
     padding: 14px 16px;
