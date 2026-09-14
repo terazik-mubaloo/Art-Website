@@ -77,7 +77,6 @@ div:target {
 .header {
     display: flex;
     justify-content: space-between;
-
 }
 
 .left-side,.right-side {
@@ -217,11 +216,6 @@ div:target {
     margin-bottom: 2rem;
 }
 
-.music-date {
-    font-size: 20px;
-    text-align: right;
-}
-
 .music {
     display: flex;
     flex-wrap: wrap;
@@ -304,29 +298,12 @@ div:target {
     text-shadow: 2px 2px 4px black;
 }
 
-.showreel {
-    padding: 2rem;
-}
-
 .brown-box {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-}
-
-.anim-list {
-}
-
-.art_stash_container {
-    max-width: 80%;
-}
-
-.anim-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2rem;
 }
 
 .anim-box {
@@ -433,9 +410,10 @@ div:target {
 }
 
 .copyright {
-    font-size: 1rem;
-    text-shadow: 2px 2px black;
+    font-size: 1.2rem;
+    text-shadow: -2px -2px 1px #000, 2px -2px 1px #000, -2px 2px 1px #000, 2px 2px 1px #000;
     text-align: center;
+    font-weight: 600;
 }
 
 @keyframes pop {

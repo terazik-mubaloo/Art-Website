@@ -11,6 +11,7 @@
     <link href="./css/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="./css/credits.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.w3schools.com/lib/w3data.js"></script>
     <script src="js/simple-freeze.js"></script>
     <script src="./js/burger-menu.js"></script>
   </head>
@@ -55,6 +56,13 @@
     </main>
 
 
-    <footer></footer>
+    <footer>
+      <div w3-include-html="./reusables/copyright.html" id="copyright-notice"></div>
+    </footer>
+
+    <script>
+      w3IncludeHTML();
+    </script>
+
   </body>
 </html>
