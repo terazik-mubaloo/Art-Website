@@ -327,6 +327,19 @@ div:target {
     margin: 0.5rem;
 }
 
+.short-film-box {
+    background-color: rgb(45,39,34);
+    color: white;
+    padding: 7px;
+    max-height: 10%;
+    padding: 0.5rem;
+    border: 6px double #fff;
+    border-radius: 15px;
+    width: 30rem;
+    min-height: 20rem;
+    margin: 0.5rem;
+}
+
 .model-box-container {
     margin: 0.5rem;
     display: flex;
