@@ -625,6 +625,13 @@ div:target {
         width: auto;
         /*         margin: 0; */
     }
+    .short-film-box {
+        width: 20rem;
+        min-height: 16rem;
+    }
+    .anim-box {
+        min-height: 17rem;
+    }
 
     /* ———————————————— Animations  ———————————————— */
 
