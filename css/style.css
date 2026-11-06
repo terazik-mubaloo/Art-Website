@@ -403,6 +403,7 @@ div:target {
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
+    height: 1.5rem;
 }
 
 .date-box-anim {
