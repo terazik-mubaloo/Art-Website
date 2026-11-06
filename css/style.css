@@ -19,9 +19,13 @@ a {
     text-decoration:none;
 }
 
-h2, h3 {
+h2, h3, h4 {
     text-shadow: 1px 1px 4px black;
     text-decoration-line: underline;
+}
+
+h4 {
+    margin-bottom: 0px;
 }
 
 video {
@@ -55,6 +59,10 @@ div:target {
 .basic-link {
     font-size: initial;
     font-weight: 600;
+}
+
+.list-compact {
+    margin: 0;
 }
 
 .link {
